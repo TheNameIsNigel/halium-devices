@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="ros"
+           fetch="https://github.com/RoxxonOS"
+           review="http://review.roxxonos.org"
+           revision="refs/heads/halium-8.1" />
+    <project path="device/google/taimen" name="android_device_google_taimen" remote="ros" revision="halium-8.1" />
+    <project path="device/google/wahoo" name="android_device_google_wahoo" remote="ros" revision="halium-8.1" />
+    <project path="kernel/google/wahoo" name="android_kernel_google_wahoo" remote="ros" revision="halium-8.1" />
+    <project path="vendor/google" name="proprietary_vendor_google" remote="them" revision="lineage-17.1" />
+   
+</manifest>
